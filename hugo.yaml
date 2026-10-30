@@ -1,0 +1,29 @@
+baseURL: "https://ashishreddyette.dev/"
+languageCode: "en-us"
+title: "Tech Log & Notes"
+theme: "PaperMod"
+
+# Optional: Uncomment the line below if you NEVER want /journal built in production,
+# and only want to read it locally via `hugo server`
+# ignoreFiles: ["^content/journal/.*"]
+
+params:
+  defaultTheme: auto # switches between dark/light or set to 'dark'
+  ShowReadingTime: true
+  ShowCodeCopyButtons: true
+  ShowBreadCrumbs: true
+  ShowPostNavLinks: true
+  homeInfoParams:
+    Title: "Tech Logs"
+    Content: "Random things I do"
+
+menu:
+  main:
+    - identifier: blog
+      name: Blog & TIL
+      url: /blog/
+      weight: 10
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 20
